@@ -1,7 +1,6 @@
 # IGNORE
 
 model/
-data/
 
 *.DS_Store
 *.m~
