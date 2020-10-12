@@ -1,6 +1,6 @@
 # IGNORE
 
-model/
+model/ToPS_weight.mat
 
 *.DS_Store
 *.m~
