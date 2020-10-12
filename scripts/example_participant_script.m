@@ -1,4 +1,4 @@
-basedir = '/Volumes/habenula/github/tops_working';
+basedir = '/Users/jaejoonglee/github/cocoanlab/tops';
 n_run = 2;
 n_bin = 5;
 atlas_img = fullfile(basedir, 'data/atlas/Fan_et_al_atlas_r279_MNI_3mm.nii');
@@ -11,10 +11,11 @@ dfc_binned{2} = fullfile(basedir, 'data/example_participant/FC/example_dFC_binne
 pain_rating{1} = fullfile(basedir, 'data/example_participant/pain_rating/example_pain_rating_task-REST.mat');
 pain_rating{2} = fullfile(basedir, 'data/example_participant/pain_rating/example_pain_rating_task-CAPS.mat');
 load(fullfile(basedir, 'model/ToPS_weight.mat'), 'ToPS_w');
+fsl_env_cmd = 'FSLDIR=/usr/local/fsl; . ${FSLDIR}/etc/fslconf/fsl.sh; PATH=${FSLDIR}/bin:${PATH};';
 
 for img_i = 1:n_run
     fsl_cmd = sprintf('fslmeants -i %s --label=%s -o %s', fmri_imgs{img_i}, atlas_img, roi_meants{img_i});
-    system(fsl_cmd);
+    system([fsl_env_cmd ';' fsl_cmd]);
     roi_meants_dat = load(roi_meants{img_i}, '-ASCII');
     dfc_dat = DCC_jj(roi_meants_dat, 'simple', 'whiten'); % Intel Xeon E5, 3GHz, single core : roughly 1 hour per image
     dfc_binned_dat = zeros(size(dfc_dat,1), n_bin);
