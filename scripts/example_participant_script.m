@@ -1,4 +1,7 @@
 basedir = '/Users/jaejoonglee/github/cocoanlab/tops';
+
+addpath(genpath(fullfile(basedir, 'functions')));
+
 n_run = 2;
 n_bin = 5;
 atlas_img = fullfile(basedir, 'data/atlas/Fan_et_al_atlas_r279_MNI_3mm.nii');

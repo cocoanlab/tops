@@ -1,4 +1,4 @@
-basedir = '/Volumes/habenula/github/tops_working';
+basedir = '/Users/jaejoonglee/github/cocoanlab/tops';
 
 addpath(genpath(fullfile(basedir, 'functions')));
 
