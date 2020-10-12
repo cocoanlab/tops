@@ -4,7 +4,7 @@ This repository contains de-identified functional connectivity data and the anal
 
 To download Tonic Pain Signature (ToPS), we ask you to send a short request mail to Prof. Choong-Wan Woo (a.k.a. Wani). We will soon prepare a Material Transfer Agreement (MTA) form and share our model to researchers who submitted the MTA form with their signatures via a web-link.
 
-<span style="font-size: 15px !important; color: #ff0066;">Send a request mail! ([choongwan.woo@gmail.com](mailto:email@exam))</span>
+<span style="font-size: 15px !important; color: #ff0066;">Send a request mail! ([choongwan.woo@gmail.com](mailto:choongwan.woo@gmail.com))</span>
 
 ---
 ## Paper information
