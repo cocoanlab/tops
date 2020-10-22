@@ -55,7 +55,7 @@ Choong-Wan Woo
 
 - IBS-R015-D1 (Institute for Basic Science)
 - 2019R1C1C1004512 (National Research Foundation of Korea)
-- and 18-BR-03 (Ministry of Science and ICT, Korea)
+- 18-BR-03 (Ministry of Science and ICT, Korea)
 - 2019-0-01367-BabyMind (Ministry of Science and ICT, Korea)
 
 Tor D. Wager
