@@ -33,7 +33,7 @@ This page is for sharing the data, codes, supplemental materials, and the model 
 
 ## Dependencies
 
-1. Please download the compressed zip file ('data.zip') that contains all the associated data ([link](https://doi.org/10.6084/m9.figshare.13082519.v1)), and un-zip the file into the 'tops' folder (path: /tops/data).
+1. Please download the compressed zip file ('data.zip') that contains all the associated data ([link](https://figshare.com/articles/dataset/data_zip/13082519)), and un-zip the file into the 'tops' folder (path: /tops/data).
 
 2. For running 'example_participant_script.m', [FSL](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki) must be installed.
 
