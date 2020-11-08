@@ -176,7 +176,7 @@ for i = 1:length(varargin)
 end
 
 if ~usesamefig
-    create_figure('box_plot');
+%     create_figure('box_plot');
 end
 
 if do_box

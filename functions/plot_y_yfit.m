@@ -83,7 +83,7 @@ else
         189,0,38]./255;
 end
 
-create_figure('y_yfit_plot');
+% create_figure('y_yfit_plot');
 
 clear test_por;
 if iscell(yval)

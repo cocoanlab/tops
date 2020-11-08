@@ -689,7 +689,7 @@ end
             
             % plot histograms...
             
-            create_figure('distributions');
+%             create_figure('distributionss');
             h = histfit(input_values(binary_outcome), 20);
             hbar = get(h(1), 'Children');
             set(hbar, 'FaceAlpha', .3, 'FaceColor', [0 0 1], 'EdgeColor', 'none');

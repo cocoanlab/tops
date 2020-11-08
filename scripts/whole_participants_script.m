@@ -29,7 +29,7 @@ circos_multilayer(ToPS_w_recon, ...
     'add_layer', {'layer', norm_pos_deg, 'color', col_pos_deg, 'layer', norm_neg_deg, 'color', col_neg_deg}, ...
     'region_names', cluster_Fan_Net.names_short, 'region_names_size', 7, 'laterality', cluster_Fan_Net.dat(:,7), 'sep_pos_neg');
 set(gca, 'xlim', [-1.2 1.2], 'ylim', [-1.2 1.2]);
-set(gcf, 'position', [560    50   953   898]);
+set(gcf, 'position', [40    40   786   762]);
 
 %% Study 3: Apply ToPS
 
@@ -78,24 +78,19 @@ line([10 10], ylim_val, 'linewidth', 1.5, 'color', [.5 .5 .5], 'linestyle', '--'
 text([2; 12.5], [ylim_val(1) + diff(ylim_val)*0.2; ylim_val(2) - diff(ylim_val)*0.2], {'Capsaicin', 'Control'}, 'Fontsize', 16);
 
 
-%% Study 3: Specificity plot: CAPS vs. QUIN (Fig. 2d)
-
+%% Study 3: Specificity plot: CAPS vs. QUIN or ODOR (Fig. 2d)
 signature_response1 = cat(2, Study3.ToPS_avg.CAPS{:})';
 signature_response2 = cat(2, Study3.ToPS_avg.QUIN{:})';
+signature_response3 = cat(2, Study3.ToPS_avg.ODOR{:})';
 
 cols = [0.8353    0.2431    0.3098
-    0.9922    0.6824    0.3804];
+    0.9922    0.6824    0.3804
+    0.8667    0.6824    0.9294];
+
 out = plot_specificity_box(signature_response1, signature_response2, 'colors', cols);
 ylabel('Signature response', 'fontsize', 18); xticklabels({'CAPS', 'QUIN'}); xtickangle(45);
 
-%% Study 3: Specificity plot: CAPS vs. QUIN (Fig. 2d)
-
-signature_response1 = cat(2, Study3.ToPS_avg.CAPS{:})';
-signature_response2 = cat(2, Study3.ToPS_avg.ODOR{:})';
-
-cols = [0.8353    0.2431    0.3098
-    0.8667    0.6824    0.9294];
-out = plot_specificity_box(signature_response1, signature_response2, 'colors', cols);
+out = plot_specificity_box(signature_response1, signature_response3, 'colors', cols);
 ylabel('Signature response', 'fontsize', 18); xticklabels({'CAPS', 'ODOR'}); xtickangle(45);
 
 %% Study 4: Apply ToPS

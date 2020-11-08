@@ -20,7 +20,7 @@ for i = 1:length(varargin)
     end
 end
 
-create_figure('y_yfit_plot');
+% create_figure('y_yfit_plot');
 
 b = glmfit(yval, yfit);
 out.b = b(2);

@@ -20,7 +20,7 @@ for i = 1:length(varargin)
     end
 end
 
-create_figure('trace_plot_overlap');
+% create_figure('trace_plot_overlap');
 hold on;
 
 [n_data1, t_data1] = size(data1);
