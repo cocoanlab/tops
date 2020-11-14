@@ -1,4 +1,7 @@
-%% 1. Basic settings
+% A neuroimaging biomarker for sustained experimental and clinical pain
+% Chapter 2. Applying ToPS onto multiple participants' fMRI data
+
+%% 1. Basic settingss
 
 basedir = '~/github/cocoanlab/tops'; % Check this path!
 addpath(genpath(fullfile(basedir, 'functions')));
