@@ -23,11 +23,11 @@ This study reveals a unique functional architecture for sustained, ongoing pain,
 
 This page is for sharing the data, codes, supplemental materials, and the model with researchers and laboratories around the world. We support the open science and thus would love to help other researchers and laboratories to apply and test our model on their datasets.
 
-1) **ToPS**: The model will be shared via a Material Transfer Agreement only for the scientific research purpose. We're currently working on making the Material Transfer Agreement form, which will be make available soon (upon publication)
+1) **ToPS**: The model will be shared via a Material Transfer Agreement only for the scientific research purpose. We're currently working on making the Material Transfer Agreement form, which will be make available soon.
 
-2) **Codes and Data**: The tutorial codes are available at the following github [repository](https://github.com/cocoanlab/tops), and the data are available at the following [figshare](https://figshare.com/articles/dataset/data_zip/13082519) page
+2) **Codes and Data**: The tutorial codes are available at the following github [repository](https://github.com/cocoanlab/tops), and the data are available at the following [figshare](https://figshare.com/articles/dataset/data_zip/13082519) page.
 
-3) **ToPS atlas**: We generated a functional connectivity atlas book using the ToPS model weights, which will be available upon publication.
+3) **ToPS atlas**: We generated a functional connectivity atlas book using the ToPS model weights, which is available at the following [figshare](https://figshare.com/articles/figure/ToPS_connection_atlas_pdf/13237403) page.
 
 <br>
 
