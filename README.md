@@ -1,7 +1,7 @@
 # Tonic pain signature (ToPS)
 
 
-Citation: Jae-Joong Lee, Hong Ji Kim, Marta Ceko, Bo-yong Park, Soo Ahn Lee, Hyunjin Park, Mathieu Roy, Seong-Gi Kim, Tor D. Wager\*, Choong-Wan Woo\*, A neuroimaging biomarker for sustained experimental and clinical pain, In press, _Nature Medicine_ (the manuscript is not available yet)
+Citation: Jae-Joong Lee, Hong Ji Kim, Marta Ceko, Bo-yong Park, Soo Ahn Lee, Hyunjin Park, Mathieu Roy, Seong-Gi Kim, Tor D. Wager\*, Choong-Wan Woo\*, A neuroimaging biomarker for sustained experimental and clinical pain, 2021, _Nature Medicine_ ([link](https://www.nature.com/articles/s41591-020-1142-7))
 
 
 ## Background
@@ -43,7 +43,7 @@ This page is for sharing the data, codes, supplemental materials, and the model 
 
 ## Questions?
 
-If you have any questions, please email [Wani](mailto:choongwan.woo@gmail.com)
+If you have any questions, please email [Wani](mailto:choongwan.woo@gmail.com) or [Jaejoong](mailto:jaejoonglee92@gmail.com)
 
 <br>
 
