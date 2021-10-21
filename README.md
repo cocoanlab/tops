@@ -23,7 +23,7 @@ This study reveals a unique functional architecture for sustained, ongoing pain,
 
 This page is for sharing the data, codes, supplemental materials, and the model with researchers and laboratories around the world. We support the open science and thus would love to help other researchers and laboratories to apply and test our model on their datasets.
 
-1) **ToPS**: The model will be shared via a Mutual Confidentiality Agreement (MCA) only for the scientific research purpose. Please fill out this Google Form [link](https://forms.gle/agADsarrVPdVmC8n8) and send us the signed MCA document.
+1) **ToPS**: The model will be shared via a Mutual Confidentiality Agreement (MCA) only for the scientific research purpose. Please fill out this Google Form ([link](https://forms.gle/agADsarrVPdVmC8n8)) and send us the signed MCA document.
 
 2) **Codes and Data**: The tutorial codes are available at the following github [repository](https://github.com/cocoanlab/tops), and the data are available at the following [figshare](https://figshare.com/articles/dataset/data_zip/13082519) page.
 
